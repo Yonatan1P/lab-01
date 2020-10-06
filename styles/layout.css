@@ -1,0 +1,11 @@
+div{
+    background: white;
+    width: 50%;
+    height: 5vw;
+}
+@media(min-width: 400px) {
+    div{
+        background: black;
+        width: 80%;
+    }
+}
