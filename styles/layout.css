@@ -1,55 +1,83 @@
 
 @media(max-width: 768px) {
+    main{
+        width: 700px;
+    }
     .regularBox{
-        height: 10vw;
+        height: 125px;
+        width: 480px;
+    }
+    .smallBox{
+        width: 240px;
+        height: 250px;
     }
     aside{
-        margin : 1%;
-        padding : 1%; 
+        outline: 2px solid black;
         background:red;
-        width: 92%;
-        height: 5vw;
+        width: 480px;
+        height: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
     
     }
     .footer{
-        width: 92%;
-        margin-top: 50vw;
-        height: 10vw;
+        background-color: rgb(240, 41, 41);
+        width:480px;
+        height: 80px;
     }
+    #a{background-color: rgb(218, 30, 30);}
+    #c{background-color: rgb(119, 12, 12)}
+    #d{background-color: rgb(184, 32, 32)}
+    #e{background-color: rgb(170, 39, 39)}
+    #f{background-color: rgb(207, 36, 36)}
+    #g{background-color: rgb(158, 0, 0)}
+    #h{background-color: rgb(194, 49, 49)}
 }
 @media(min-width: 768px) {
+    body{
+        min-width: 960px;
+    }
     div{
         background: green;
-        width: 96%;
-        height: 10vw;
         float:right; 
     }
+    #a{
+        width:960px;
+        height: 100px;
+    }
+
     .smallBox{
-        width:11%;
-        height: 20vw;
+        width: 190px;
+        height: 250px;
         float: right; 
     }
     .regularBox{
-        width: 26%;
+       width: 380px;
+       height: 200px;
         float: right;
     }
     aside{
+        outline: 2px solid black;
         float: left;
         position: relative;
         background-color: green; 
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 35%;  
-        height: 47.5vw;  
-        margin : 1%;
-        padding : 1%;
+        width: 200px;
+        height: 600px;  
     }
     .footer{
-        width: 56%;
+        width: 760px;
+        height: 150px;
         float: right;
     }
+    #a{background-color: rgb(62, 179, 15);}
+    #c{background-color: rgb(37, 119, 12)}
+    #d{background-color: rgb(32, 184, 52)}
+    #e{background-color: rgb(61, 170, 39)}
+    #f{background-color: rgb(36, 207, 50)}
+    #g{background-color: rgb(63, 158, 0)}
+    #h{background-color: rgb(78, 194, 49)}
 }
