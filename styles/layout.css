@@ -1,11 +1,55 @@
-div{
-    background: white;
-    width: 50%;
-    height: 5vw;
+
+@media(max-width: 768px) {
+    .regularBox{
+        height: 10vw;
+    }
+    aside{
+        margin : 1%;
+        padding : 1%; 
+        background:red;
+        width: 92%;
+        height: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .footer{
+        width: 92%;
+        margin-top: 50vw;
+        height: 10vw;
+    }
 }
-@media(min-width: 400px) {
+@media(min-width: 768px) {
     div{
-        background: black;
-        width: 80%;
+        background: green;
+        width: 96%;
+        height: 10vw;
+        float:right; 
+    }
+    .smallBox{
+        width:11%;
+        height: 20vw;
+        float: right; 
+    }
+    .regularBox{
+        width: 26%;
+        float: right;
+    }
+    aside{
+        float: left;
+        position: relative;
+        background-color: green; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35%;  
+        height: 47.5vw;  
+        margin : 1%;
+        padding : 1%;
+    }
+    .footer{
+        width: 56%;
+        float: right;
     }
 }
